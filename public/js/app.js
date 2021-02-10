@@ -1,4 +1,3 @@
-console.log('js file included');
 const weatherForm = document.querySelector("form");
 const searchLocation = document.querySelector("input");
 const addressPara = document.querySelector('#address-para');
