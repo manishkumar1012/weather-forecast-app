@@ -9,9 +9,8 @@ const forecast = (latitude, longitude, callback) => {
       callback("Unable to find location specified!", undefined);
     } else {
       const temperature = body.current.temperature;
-      const feelsLike = body.current.feelslike;
       const weatherDescription = body.current.weather_descriptions[0];
-      const responseMessage = `${weatherDescription}. It is currently ${temperature} degrees out there.`;
+      const responseMeswesage = `${weatherDescription}. It is currently ${temperature} degrees out there.`;
       callback(undefined, responseMessage);
     }
   });
